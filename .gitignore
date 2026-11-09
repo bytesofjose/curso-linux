@@ -1,0 +1,4 @@
+shared/
+*.log
+!basico/**/reporte-grande.log
+.DS_Store

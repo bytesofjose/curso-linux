@@ -1,0 +1,17 @@
+services:
+  ubuntu-lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # Cambia la contraseña demo al construir (nunca publiques una real):
+      #   USER_PASSWORD=secreta docker compose build
+      args:
+        USER_PASSWORD: ${USER_PASSWORD:-changeme}
+    container_name: ubuntu-lab
+    stdin_open: true
+    tty: true
+    volumes:
+      # Los demos de cada video viven aquí (~/shared). Lo que quede fuera
+      # de este montaje se pierde al reconstruir, por diseño.
+      - ./shared:/home/alumno/shared
+    working_dir: /home/alumno/shared
