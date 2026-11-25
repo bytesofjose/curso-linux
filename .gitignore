@@ -1,4 +1,3 @@
-shared/
-*.log
-!basico/**/reporte-grande.log
+*.bak
+*~
 .DS_Store
