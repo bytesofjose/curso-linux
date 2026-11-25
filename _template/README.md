@@ -28,7 +28,6 @@
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 {{ONE_LINE_GOAL_EN}}.
 

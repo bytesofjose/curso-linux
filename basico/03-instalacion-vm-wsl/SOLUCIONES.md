@@ -28,7 +28,6 @@ Mac prestada a devolver → solo VM, disco dinámico, snapshots, borrar el `.vdi
 Dual boot solo gana con hardware limitado más necesidad de bare-metal (GPU, drivers Wi-Fi reales) en todo el curso — acepta el costo de backup + particionado + reboot explícito.
 
 ---
-# English version
 
 ## 1. Pre-flight
 

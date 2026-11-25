@@ -25,7 +25,6 @@ Pasa: {{criterio}}.
 Pasa: {{criterio}}.
 
 ---
-# English version
 
 ## 1. {{Exercise 1}}
 

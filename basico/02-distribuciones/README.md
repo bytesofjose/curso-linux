@@ -41,7 +41,6 @@ Corre en tu máquina, sin sandbox. Comandos de solo lectura salvo el opcional `n
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 Student material. Goal: identify any Linux box in 30 seconds — distro, version, family, package manager — and know which manager answers which question.
 

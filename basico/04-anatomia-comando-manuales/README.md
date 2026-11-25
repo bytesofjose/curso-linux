@@ -43,7 +43,6 @@ Sintaxis del manual (POSIX): `[X]` opcional, `<X>` valor requerido, `...` repeti
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 Student material. Goal: dissect any command into command + options + arguments, and answer "how does this flag work" alone with `man`, `--help`, and `tldr`.
 

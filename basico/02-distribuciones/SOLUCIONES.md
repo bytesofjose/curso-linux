@@ -30,7 +30,6 @@ grep -E '^VERSION_ID=' /etc/os-release
 Pasa: una línea tipo "kernel 6.8.0-41 (calendario upstream) vs Ubuntu 24.04 (snapshot Canonical abril-2024) — el kernel se actualiza dentro del ciclo de la distro, el número de versión se congela al lanzar". Vale cualquier separación correcta con tus dos valores.
 
 ---
-# English version
 
 Values below are shapes, yours follow the same commands on your box.
 

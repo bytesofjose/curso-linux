@@ -51,7 +51,6 @@ Absoluta empieza en `/`, relativa donde estás, `.` es aquí, `..` es arriba.
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 Student material. Goal: never get lost — `pwd` anchors you, `cd` moves you, `ls`/`tree` prove where you landed.
 

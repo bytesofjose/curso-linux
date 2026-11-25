@@ -60,7 +60,6 @@ Construye el lab de arriba primero. Todo dentro de `/tmp/lab06`.
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 Student material. Goal: create, copy, move, rename and delete files without losing work.
 

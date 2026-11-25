@@ -40,7 +40,6 @@ ls -R $LAB | head -30
 Pasa: tres salidas tree capturadas, reproducción con `ls` del nivel `-L 1`, y la regla: `tree` para mapas, `ls -R` cuando no hay `tree` (checa con `command -v tree || ls -R $LAB`).
 
 ---
-# English version
 
 Seed first: `bash setup.sh`. Then `LAB=/tmp/lab05`.
 

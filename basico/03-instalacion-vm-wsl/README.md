@@ -47,7 +47,6 @@ Instalación dentro de la VM: idioma + teclado → tipo Normal o Mínima → "Bo
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 Student material. Goal: get a disposable Ubuntu 24.04 you can break without fear, and know which of the three paths fits each machine.
 

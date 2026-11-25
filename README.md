@@ -21,7 +21,6 @@ Curso azul (este repo por ahora): terminal sin miedo, sistema de archivos, softw
 Syllabus (profesores): repo privado. Sandbox (grabación): solo local, nunca se sube.
 
 ---
-# English version
 
 Student files for the Linux video course (bytesofjose). One folder per video under `basico/` (more levels as videos go public), each with a student `README.md` plus `SOLUCIONES.md`. No teacher guides here — those live in the private syllabus repo. No demo dumps — every exercise builds or finds its own files with the commands from class.
 

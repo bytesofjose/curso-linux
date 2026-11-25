@@ -34,7 +34,6 @@ Licencias: GPL (copyleft — distribuir cambios obliga a publicar el fuente, Lin
 Soluciones en `SOLUCIONES.md`.
 
 ---
-# English version
 
 Student material. Goal: place every later command in its story — Unix ideas, GNU tools, Linux kernel — and pick licenses with intent.
 

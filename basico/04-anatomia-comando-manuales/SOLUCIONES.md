@@ -35,7 +35,6 @@ ls --help
 Pasa: `help cd` imprime, `man cd` no tiene página; ambos de `ls` imprimen. Línea de regla: builtins → `help` primero; externos → `man` para fondo, `--help` para rápido, `tldr` para ejemplos.
 
 ---
-# English version
 
 ## 1. Type detective
 

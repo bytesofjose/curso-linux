@@ -22,7 +22,6 @@ Falta `ls` en instalación mínima → capa de herramientas del SO. Razón: el k
 Wi-Fi en Ubuntu pero no en Debian vanilla → capa distro. Razón: misma familia de kernel, distintos firmware y empaquetado.
 
 ---
-# English version
 
 ## 1. Order the timeline
 

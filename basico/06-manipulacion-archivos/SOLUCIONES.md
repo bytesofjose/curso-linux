@@ -46,7 +46,6 @@ rm -i $LAB/borrar-copia.txt
 Pasa: el archivo sale de `$LAB` tras `trash-put`, vuelve tras `trash-restore`, la copia muere tras `rm -i`. Regla: papelera para los "tal vez", `rm -i` para los "sí seguro", nunca `rm -rf` pelado.
 
 ---
-# English version
 
 Build the lab first (see README), then `LAB=/tmp/lab06`.
 
