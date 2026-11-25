@@ -1,4 +1,36 @@
-# Solutions — Video 02
+# Soluciones — Video 02
+
+Los valores son formas, los tuyos salen de los mismos comandos en tu máquina.
+
+## 1. Identifica tu máquina
+
+```bash
+grep -E '^(NAME|VERSION_ID|ID|ID_LIKE)=' /etc/os-release
+uname -srm
+which apt dnf pacman
+```
+
+Pasa: una línea con los cinco datos. Forma Ubuntu: `Ubuntu 24.04, kernel 6.8.0-41-generic x86_64, familia Debian (ID_LIKE=debian), apt`. Forma Arch: `Arch, rolling, kernel 6.x, familia Arch, pacman`. El `which` debe coincidir con la familia `ID`/`ID_LIKE`.
+
+## 2. Intel de paquetes
+
+```bash
+apt show coreutils bash 2>/dev/null | grep -E '^(Package|Version|Description)' | head -12
+```
+
+Forma Red Hat: `dnf info coreutils bash | grep -E '^(Name|Version|Summary)'`. Forma Arch: `pacman -Si coreutils bash | grep -E '^(Name|Version|Description)'`. Pasa: dos paquetes, solo gestor nativo, versión + descripción, nada instalado.
+
+## 3. El kernel no es la distro
+
+```bash
+uname -r
+grep -E '^VERSION_ID=' /etc/os-release
+```
+
+Pasa: una línea tipo "kernel 6.8.0-41 (calendario upstream) vs Ubuntu 24.04 (snapshot Canonical abril-2024) — el kernel se actualiza dentro del ciclo de la distro, el número de versión se congela al lanzar". Vale cualquier separación correcta con tus dos valores.
+
+---
+# English version
 
 Values below are shapes, yours follow the same commands on your box.
 

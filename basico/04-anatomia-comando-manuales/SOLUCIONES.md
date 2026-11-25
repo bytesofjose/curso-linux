@@ -1,4 +1,41 @@
-# Solutions — Video 04
+# Soluciones — Video 04
+
+## 1. Detective de tipos
+
+```bash
+type ls
+type cd
+type -a echo
+type ping
+type man
+type ll 2>/dev/null || alias ll='ls -la'
+type ll
+```
+
+Pasa: `ls` externo, `cd` builtin, `echo` ambos (builtin + `/usr/bin/echo`), `ping` externo, `man` externo, `ll` alias tras crearlo. Una etiqueta por comando, sin ensayos.
+
+## 2. Sintaxis del manual
+
+```bash
+man ls
+ls -laS /tmp
+```
+
+Pasa: entrada mayor nombrada del listado `-S` más la lectura de `[FILE...]`: corchetes = opcional, `...` = repetible, así que `ls` solo, `ls un-dir` y `ls dir1 dir2` son legales — tu comando usó "un dir, ordenado por tamaño".
+
+## 3. Cadena de ayuda
+
+```bash
+help cd
+man cd
+man ls
+ls --help
+```
+
+Pasa: `help cd` imprime, `man cd` no tiene página; ambos de `ls` imprimen. Línea de regla: builtins → `help` primero; externos → `man` para fondo, `--help` para rápido, `tldr` para ejemplos.
+
+---
+# English version
 
 ## 1. Type detective
 
